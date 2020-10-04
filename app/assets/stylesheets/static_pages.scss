@@ -1,0 +1,142 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.inline_li > ul > li{
+  display: inline;
+  margin-right: 1em; 
+}
+
+.menu_tab {
+    display: inline-block;
+}
+
+.header_tab, .menu_product {
+  display: flex;
+}
+
+.logo {
+  margin: auto;
+}
+
+.search {
+  margin-left: auto; 
+}
+
+.header {
+  padding: 12px 14px 24px;
+}
+
+.image_backgroup_woman {
+  padding-top: 48px;
+  text-align: center;
+}
+.image_backgroup_woman img{
+  width: 1080px;
+  height: 600px;
+}
+
+.text_content_women {
+  padding-top: 24px;
+  padding-bottom: 48px;
+}
+.text_content_women h3{
+  width: 867px;
+  margin: auto;
+  margin-bottom: 1rem;
+  font-size: 2.5em;
+}
+.text_content_women p {
+  width: 867px;
+  margin: auto; 
+  font-size: 1.2em;
+}
+.list_people_design {
+  padding-top: 48px; 
+  padding-bottom: 24px; 
+  display: flex;
+}
+
+.image_desgin_people1, .image_desgin_people2 {
+  display: inline-block;
+  margin: 0 auto;
+}
+.image_desgin_people1 img, .image_desgin_people1{
+  width: 590px;
+  height: 590px;
+}
+
+.image_desgin_people2 img{
+  width: 590px;
+  height: 660px;
+}
+.name_people_collection{
+  text-align: left; 
+}
+.list_products1 h3{
+  font-size: 1.7em;
+}
+
+.list_products1 {
+  margin-top: 5em;
+  padding-bottom: 4em;
+}
+.image_cards img{
+  width: 244px;
+  height: 325px;
+  margin-bottom: 48px;
+}
+.section_list_4 {
+  display: flex;
+  width: 95%;
+  margin: auto;
+}
+.section_list_4 article{
+  padding: 24px;
+  padding-bottom: 48px;
+  margin-right: 12px;
+}
+.botton_now a{
+  display: inline;
+  border: solid 0.1em black;
+  color: #222;
+  padding: 1em 1.5em;
+  border-radius: 5px; 
+}
+.hot_week_title {
+  margin-top: 4em;
+  font-size: 1.7em;
+}
+.image_hot_weeks img, .image_hot_weeks{
+  width: 385px;
+  height: 385px;
+}
+.poster_hot_weeks {
+  display: inline-block;
+  margin-left: 24px;
+  margin-bottom: 24px;
+}
+.week_hot {
+  display: flex;
+}
+.content_hot_weeks {
+  text-align: left;
+}
+.list_hot_week {
+  width: 98%;
+  margin: auto;
+}
+.marg_80 {
+  padding-top: 5em; 
+}

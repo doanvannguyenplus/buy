@@ -1,0 +1,61 @@
+// Place all the styles related to the shopping/womens controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.big_index{
+  text-align: center;
+  padding: 0 14px
+}
+.setting_products {
+  display: flex;
+  padding-bottom: 12px;
+}
+.quanity_products {
+  width: 95%;
+  font-size: 1.2em;
+  text-align: left;
+}
+.sort_products {
+  display: inline;
+  font-size: 1.2em;
+  width: 10%;
+}
+.list_filter {
+  text-align: left;
+  width: 30%;
+}
+.icon_filter {
+  padding: 12px 0;
+}
+.list_products_filter {
+  display: flex;
+  width: 903px;
+}
+
+.list_product {
+  display: flex;
+  margin-left: 0;
+  width: 70%;
+  flex-wrap: wrap;
+}
+.products_01{
+  flex-direction: column;
+}
+.products_02{
+  flex-direction: column;
+}
+.products_ul{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.product_01 {
+  padding: 0 42px;
+  margin-bottom: 72px;
+}
+
+.product_01 >.image_cards{
+  height: 280px;
+}
+.product_01 .image_cards img {
+  height: 280px;
+  margin-bottom: 12px;
+}
