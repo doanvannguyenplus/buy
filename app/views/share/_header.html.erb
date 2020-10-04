@@ -1,0 +1,45 @@
+<div class="header">
+  <div class="header_tab">
+    <div class="menu_tab inline_li">
+      <ul>
+        <li><%= link_to "Women", shopping_womens_path %></li>
+        <li>Men</li>
+        <li>Kids</li>
+      </ul>
+    </div>
+    <div class="logo">
+      <%= link_to root_path do%>
+        <%= image_tag("your-logo.png")%>
+      <%end%>
+    </div>
+    <div class="menu_user inline_li">
+      <ul>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Bookmark</a></li>
+        <li><a href="#">Cart</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="menu_product">
+    <div class="menu_catelogies inline_li">
+      <ul>
+        <li><a href="#">New</a></li>
+        <li><a href="#">Shop By</a></li>
+        <li><a href="#">Designers</a></li>
+        <li><a href="#">Clothing</a></li>
+        <li><a href="#">Shoes</a></li>
+        <li><a href="#">Bag</a></li>
+        <li><a href="#">Accessories</a></li>
+        <li><a href="#">Sale</a></li>
+      </ul>
+    </div>
+    <div class="search">
+      <%= form_with(url: "/search", method: "get") do %>
+        
+        <%= text_field_tag(:q) %>
+        <%= submit_tag("Search") %>
+      <% end %>
+    </div>
+  </div>
+</div>
