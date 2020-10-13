@@ -120,3 +120,28 @@
   width: 341px;
   height: 455px;
 }
+.login_help {
+  display: flex;
+  margin-left: auto;
+  line-height: 23.625px;
+  background-color: #fff;
+}
+.login_help li {
+  margin-left: 1.5em;
+  font-size: 0.9em;
+}
+.header_login {
+  display: flex;
+  margin: 0 1em;
+}
+.logo_header_login img {
+    height: 1.5em;
+    width: 100px;
+}
+
+.logo_header_login {
+  /*line-height: 62px;*/
+}
+.checkout_header{
+  border-bottom: solid 1px black;
+}
